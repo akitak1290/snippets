@@ -1,0 +1,19 @@
+{
+  "name": "wsserver",
+  "version": "1.0.0",
+  "description": "websocket server",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Kien Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^7.4.7",
+    "http": "^0.0.1-security",
+    "ts-node-dev": "^1.1.8",
+    "ws": "^8.2.2"
+  }
+}

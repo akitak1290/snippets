@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node-dev --respawn src/index.ts"
+  },
+  "author": "Kien Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^7.4.7",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "ws": "^8.2.2"
+  }
+}
